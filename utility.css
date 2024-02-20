@@ -1,0 +1,83 @@
+.border {
+    border: 2px solid red;
+    margin: 3px;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.bg-black {
+    background-color: black;
+    color: white;
+}
+
+.invert {
+    filter: invert(1);
+}
+
+.bg-gray {
+    background-color: rgb(18 18 18);
+}
+
+.rounded {
+    border-radius: 7px;
+}
+
+.m-1 {
+    margin: 2px 5px 6px 2px;
+}
+
+.m-2 {
+    margin: 10px 6px 2px 2px
+}
+
+.p-1 {
+    padding: 10px;
+}
+
+/* Width */
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #333;
+    /* Change this to your desired background color */
+    border-radius: 6px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+    /* Change this to your desired handle color */
+    border-radius: 6px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    /* Change this to your desired handle color on hover */
+}
+
+
+.song-info {
+    color: white;
+    padding: 0px 12px;
+    width: 300px;
+}
+
+.song-time {
+    color: white;
+    padding: 0px 12px;
+    width: 100px;
+}
